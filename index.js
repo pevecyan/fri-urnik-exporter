@@ -1,15 +1,7 @@
 var jsdom = require("jsdom");
 
-getScheduleFromBrowser("2015_2016_zimski", "63130185", function(data,err){
-    var i = 0;
-})
- function getScheduleFromBrowser(schedule, studentId, callback){
-    if(!schedule || !studentId){
-        callback(null,"no-arguments");
-        return;
-    }
-    _createCalendarCrossOrigin(schedule,studentId,callback);
-}
+
+ 
 module.exports = {
     getSchedule : function(schedule, studentId, callback){
         if(!schedule || !studentId){
@@ -18,6 +10,13 @@ module.exports = {
         }
         _createCalendar(schedule,studentId,callback);
     },
+    getScheduleFromBrowser: function (schedule, studentId, callback){
+        if(!schedule || !studentId){
+            callback(null,"no-arguments");
+            return;
+        }
+        _createCalendarCrossOrigin(schedule,studentId,callback);
+    }
     
 }
 
