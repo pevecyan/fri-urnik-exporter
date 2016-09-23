@@ -1,0 +1,14 @@
+{
+  "name": "fri-urnik-exporter",
+  "version": "1.0.0",
+  "description": "Export https://urnik.fri.uni-lj.si as .ics file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js "
+  },
+  "author": "pevecyan",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^9.5.0"
+  }
+}
