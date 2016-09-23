@@ -9,7 +9,7 @@
   "author": "pevecyan",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^9.5.0",
+    "jsdom": "^9.5.0"
   },
   "repository": {
     "type": "git",
