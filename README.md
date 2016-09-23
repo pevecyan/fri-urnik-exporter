@@ -1,2 +1,2 @@
 # fri-urnik-exporter
-Export https://urnik.fri.uni-lj.si as .ics file
+Exports https://urnik.fri.uni-lj.si schedule as object
